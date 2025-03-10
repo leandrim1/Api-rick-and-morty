@@ -66,7 +66,7 @@ const Home = () => {
               <p>Origin: {rickandmorty.origin.name}</p>
               <p>Location: {rickandmorty.location.name}</p>
               <p>Created: {new Date(rickandmorty.created).toLocaleString()}</p>
-              <div className="flex justify-between mt-4 bg-indigo-950 border-l-2 border-r-2">
+              <div className="flex justify-between mt-4 border-l-2 border-r-2">
                 <button onClick={handlePrevious} disabled={characterId === 1} className="w-40 pl-2 pr-10">
                   Previous
                 </button>
